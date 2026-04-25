@@ -37,11 +37,13 @@
   width: auto;
   object-fit: contain;
   transition: filter 0.3s ease;
+  mix-blend-mode: multiply; /* 흰색/베이지색 배경 제거 */
 }
 
-/* 만약 로고가 검정색 배경투명 이미지라면, 다크모드에서 하얗게 반전되도록 설정 (필요시 제거) */
+/* 다크모드에서는 색상을 반전시키고 검은 배경을 제거 */
 :global(html[data-theme="dark"]) .logoImage {
   filter: invert(1);
+  mix-blend-mode: screen;
 }
 
 .logoText {

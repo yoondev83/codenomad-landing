@@ -17,7 +17,7 @@ export default function Header({ theme, toggleTheme, language, toggleLanguage })
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.headerContent}`}>
         <div className={styles.brand} onClick={() => window.scrollTo(0, 0)}>
-          <img src="/logo.png" alt="CodeNomad Logo" className={styles.logoImage} />
+          <img src="/logo2.png" alt="CodeNomad Logo" className={styles.logoImage} />
           <div className={styles.logoText}>CodeNomad</div>
         </div>
         <div className={styles.controls}>
