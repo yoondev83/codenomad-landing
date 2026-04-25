@@ -6,6 +6,7 @@ import portfolioData from './data/portfolio.json';
 
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
+import WhyCodeNomad from './components/WhyCodeNomad/WhyCodeNomad';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
@@ -28,6 +29,7 @@ function App() {
       />
       <main>
         <Hero data={portfolioData.hero} language={language} />
+        <WhyCodeNomad data={portfolioData.whyCodeNomad} language={language} />
         <Experience experiences={portfolioData.experiences} language={language} />
         <Projects projects={portfolioData.projects} language={language} />
         <Contact settings={portfolioData.settings} language={language} />
