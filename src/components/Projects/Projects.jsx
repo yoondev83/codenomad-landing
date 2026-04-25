@@ -16,7 +16,7 @@ export default function Projects({ projects, language }) {
   };
 
   return (
-    <section className={`section ${styles.projects}`} id="projects">
+    <section className={`section section-secondary ${styles.projects}`} id="projects">
       <div className={`container`}>
         <h2 className={`reveal ${styles.sectionTitle}`}>
           {language === 'en' ? 'Featured Projects' : '주요 프로젝트'}

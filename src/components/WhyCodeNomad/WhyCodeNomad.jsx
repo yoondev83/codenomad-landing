@@ -3,7 +3,7 @@ import styles from './WhyCodeNomad.module.css';
 
 const WhyCodeNomad = ({ data, language }) => {
   return (
-    <section id="why" className={`section ${styles.whySection} reveal`}>
+    <section id="why" className={`section section-secondary ${styles.whySection} reveal`}>
       <div className={`container ${styles.whyContainer}`}>
         <h2 className="section-title">
           {language === 'en' ? data.titleEn : data.titleKo}

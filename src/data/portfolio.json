@@ -21,13 +21,13 @@
   },
   "whyCodeNomad": {
     "titleEn": "Why CodeNomad?",
-    "titleKo": "Why CodeNomad? (왜 코드노마드?)",
+    "titleKo": "왜 코드노마드인가요?",
     "features": [
       {
         "id": "1",
         "image": "/seamless.png",
         "titleEn": "Seamless Communication",
-        "titleKo": "Seamless Communication (원활한 소통)",
+        "titleKo": "원활한 소통",
         "descEn": "Supports both Korean and English to connect with coders worldwide.",
         "descKo": "한국어와 영어 모두 지원하여 전 세계 코더들과 연결됩니다."
       },
@@ -35,7 +35,7 @@
         "id": "2",
         "image": "/system.png",
         "titleEn": "System Integration Expert",
-        "titleKo": "System Integration Expert (시스템 통합 전문)",
+        "titleKo": "시스템 통합 전문",
         "descEn": "Maximizes efficiency by optimizing and integrating complex systems.",
         "descKo": "복잡한 시스템을 최적화하고 통합하여 효율성을 극대화합니다."
       },
@@ -43,7 +43,7 @@
         "id": "3",
         "image": "/migration.png",
         "titleEn": "Specialized Migration",
-        "titleKo": "Specialized Migration (특화된 마이그레이션)",
+        "titleKo": "특화된 마이그레이션",
         "descEn": "Supports system transitions with stable and rapid code and data migration.",
         "descKo": "안정적이고 신속한 코드 및 데이터 마이그레이션으로 시스템 전환을 지원합니다."
       }

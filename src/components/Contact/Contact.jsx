@@ -51,7 +51,7 @@ export default function Contact({ settings, language }) {
   };
 
   return (
-    <section className={`section section-secondary ${styles.contact}`} id="contact">
+    <section className={`section ${styles.contact}`} id="contact">
       <div className={`container ${styles.contactContainer}`}>
         <h2 className={`reveal ${styles.sectionTitle}`}>
           {language === 'en' ? 'Let\'s Connect' : '문의하기'}

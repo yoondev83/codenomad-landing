@@ -3,7 +3,7 @@ import styles from './Experience.module.css';
 
 export default function Experience({ experiences, language }) {
   return (
-    <section className={`section section-secondary ${styles.experience}`} id="experience">
+    <section className={`section ${styles.experience}`} id="experience">
       <div className={`container`}>
         <h2 className={`reveal ${styles.sectionTitle}`}>
           {language === 'en' ? 'Work Experience' : '경력'}
