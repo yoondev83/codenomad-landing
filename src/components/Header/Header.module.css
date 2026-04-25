@@ -24,14 +24,34 @@
   height: 100%;
 }
 
-.logo {
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logoImage {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+}
+
+/* 만약 로고가 검정색 배경투명 이미지라면, 다크모드에서 하얗게 반전되도록 설정 (필요시 제거) */
+:global(html[data-theme="dark"]) .logoImage {
+  filter: invert(1);
+}
+
+.logoText {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--cn-text-primary);
   transition: color 0.3s ease;
 }
 
-:global(html[data-theme="dark"]) .logo {
+:global(html[data-theme="dark"]) .logoText {
   color: var(--cn-accent);
 }
 

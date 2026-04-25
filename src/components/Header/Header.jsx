@@ -16,7 +16,10 @@ export default function Header({ theme, toggleTheme, language, toggleLanguage })
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.headerContent}`}>
-        <div className={styles.logo}>CodeNomad</div>
+        <div className={styles.brand} onClick={() => window.scrollTo(0, 0)}>
+          <img src="/logo.png" alt="CodeNomad Logo" className={styles.logoImage} />
+          <div className={styles.logoText}>CodeNomad</div>
+        </div>
         <div className={styles.controls}>
           <button onClick={toggleLanguage} className={styles.iconButton} aria-label="Toggle Language">
             <Globe size={20} />
