@@ -4,9 +4,8 @@ import ReactGA from 'react-ga4';
 import App from './App.jsx';
 import './index.css';
 
-// Initialize Google Analytics (Replace tracking ID with your actual GA4 Measurement ID)
-// Using a placeholder for now. When the user has the real ID, they can replace 'G-XXXXXXXXXX'.
-ReactGA.initialize('G-XXXXXXXXXX');
+// Initialize Google Analytics with environment variable
+ReactGA.initialize(import.meta.env.VITE_GA_TRACKING_ID);
 
 // Send initial pageview
 ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
