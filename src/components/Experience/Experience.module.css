@@ -1,0 +1,96 @@
+.experience {
+  /* Inherits .section and .section-secondary */
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 64px;
+  color: var(--cn-text-primary);
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 24px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--cn-border);
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.timelineItem:last-child {
+  margin-bottom: 0;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -29px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--cn-accent);
+  border: 2px solid var(--cn-bg-secondary);
+  box-sizing: content-box;
+}
+
+.timelineContent {
+  background-color: var(--cn-surface);
+  padding: 24px;
+  border-radius: var(--cn-radius-md);
+  box-shadow: var(--cn-shadow-sm);
+  border: 1px solid var(--cn-border-subtle);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timelineContent:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--cn-shadow-md);
+}
+
+.timePeriod {
+  font-size: 0.875rem;
+  color: var(--cn-accent);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.companyTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--cn-text-primary);
+  margin-bottom: 4px;
+}
+
+.roleSubtitle {
+  font-size: 1rem;
+  color: var(--cn-text-secondary);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.description {
+  color: var(--cn-text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 48px;
+  }
+}

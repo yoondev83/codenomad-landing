@@ -1,0 +1,22 @@
+.footer {
+  background-color: #000000; /* Primary background for end section */
+  color: #98989d;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.subtitle {
+  color: #636366;
+  font-size: 0.8rem !important;
+}

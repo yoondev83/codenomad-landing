@@ -1,0 +1,107 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: calc(var(--cn-header-height) + 40px);
+}
+
+.heroContainer {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.imageContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.headline {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  line-height: 1.1;
+  color: var(--cn-text-primary);
+}
+
+.subheadline {
+  font-size: 1.25rem;
+  color: var(--cn-text-secondary);
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: var(--cn-accent);
+  font-weight: 600;
+}
+
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.certBadge {
+  background-color: var(--cn-surface-raised);
+  color: var(--cn-text-primary);
+  padding: 8px 16px;
+  border-radius: var(--cn-radius-xl);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--cn-border-subtle);
+  box-shadow: var(--cn-shadow-sm);
+}
+
+.ctaButton {
+  background-color: var(--cn-accent);
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: var(--cn-radius-lg);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.ctaButton:hover {
+  background-color: var(--cn-accent-hover);
+  transform: translateY(-2px);
+}
+
+.profileImage {
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--cn-radius-xl);
+  box-shadow: var(--cn-shadow-lg);
+}
+
+@media (max-width: 992px) {
+  .heroContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 48px;
+  }
+  
+  .headline {
+    font-size: 2.5rem;
+  }
+  
+  .certifications {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .headline {
+    font-size: 2rem;
+  }
+}
