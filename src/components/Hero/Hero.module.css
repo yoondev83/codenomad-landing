@@ -86,7 +86,7 @@
 
 @media (max-width: 992px) {
   .heroContainer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     gap: 48px;
   }

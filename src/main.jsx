@@ -4,8 +4,8 @@ import ReactGA from 'react-ga4';
 import App from './App.jsx';
 import './index.css';
 
-// Initialize Google Analytics with environment variable
-ReactGA.initialize(import.meta.env.VITE_GA_TRACKING_ID);
+// Initialize Google Analytics with public ID
+ReactGA.initialize('G-XMMVLVEP6P');
 
 // Send initial pageview
 ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
