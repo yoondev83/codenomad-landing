@@ -28,8 +28,8 @@
         "image": "/seamless.png",
         "titleEn": "Seamless Communication",
         "titleKo": "원활한 소통",
-        "descEn": "Supports both Korean and English to connect with coders worldwide.",
-        "descKo": "한국어와 영어 모두 지원하여 전 세계 코더들과 연결됩니다."
+        "descEn": "Provides seamless bilingual support in English and Korean, ensuring clear and precise communication for global business needs.",
+        "descKo": "한국어와 영어 이중 언어를 완벽하게 지원하여, 글로벌 비즈니스 환경에서도 언어 장벽 없이 명확하고 원활하게 소통합니다."
       },
       {
         "id": "2",
@@ -62,11 +62,11 @@
     {
       "company": "i2MAX",
       "roleEn": "Lead Salesforce Developer & Part Leader",
-      "roleKo": "세일즈포스 개발 파트 리더",
+      "roleKo": "세일즈포스 개발 파트장",
       "startDate": "Feb 2022",
       "endDate": "Mar 2026",
       "descEn": "Progressed from developer to Part Leader over 4 years, leading a team of 7 engineers delivering Salesforce DMS solutions for Hyundai and Kia across Southeast Asia. Managed multi-country rollouts covering sales, interface integration, and UAT.",
-      "descKo": "4년간 개발자에서 파트 리더로 성장하며 7인 팀을 이끌고, 동남아시아 현대·기아 세일즈포스 DMS 솔루션을 납품했습니다. 영업, 인터페이스 통합, UAT를 포함한 다국가 출시를 관리했습니다."
+      "descKo": "4년간 개발자에서 파트장으로 성장하며 7인 팀을 이끌고, 동남아시아 현대·기아 세일즈포스 DMS 솔루션을 납품했습니다. 영업, 인터페이스 통합, UAT를 포함한 다국가 출시를 관리했습니다."
     }
   ],
   "projects": [

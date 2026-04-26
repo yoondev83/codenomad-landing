@@ -12,6 +12,10 @@
   gap: 32px;
 }
 
+.projects {
+  background-color: var(--cn-bg-secondary);
+}
+
 .card {
   background-color: var(--cn-surface);
   border-radius: var(--cn-radius-md);
