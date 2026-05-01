@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Copy, CheckCircle } from 'lucide-react';
+import { Mail, Copy, CheckCircle, BookOpen } from 'lucide-react';
 
 const LinkedinIcon = ({ size }) => (
   <svg 
@@ -50,6 +50,18 @@ export default function Contact({ settings, language }) {
     }
   };
 
+  const handleBlogClick = (e) => {
+    e.preventDefault();
+    
+    const confirmMessage = language === 'en' 
+      ? 'Do you want to leave this page and open the blog?' 
+      : '현재 페이지를 벗어나 블로그로 이동하시겠습니까?';
+      
+    if (window.confirm(confirmMessage)) {
+      window.open(settings.blog, '_blank');
+    }
+  };
+
   return (
     <section className={`section ${styles.contact}`} id="contact">
       <div className={`container ${styles.contactContainer}`}>
@@ -83,6 +95,18 @@ export default function Contact({ settings, language }) {
               <span className={styles.cardValue}>Connect with me</span>
             </div>
           </a>
+
+          {settings.blog && (
+            <a href={settings.blog} className={`reveal stagger-4 ${styles.contactCard}`} onClick={handleBlogClick}>
+              <div className={styles.iconWrapper}>
+                <BookOpen size={24} />
+              </div>
+              <div className={styles.cardInfo}>
+                <span className={styles.cardLabel}>Blog</span>
+                <span className={styles.cardValue}>{language === 'en' ? 'Visit my blog' : '블로그 방문하기'}</span>
+              </div>
+            </a>
+          )}
         </div>
       </div>
       
