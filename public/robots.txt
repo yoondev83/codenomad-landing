@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://yoondev.com/sitemap.xml
+
+# LLM-readable summary: https://yoondev.com/llms.txt

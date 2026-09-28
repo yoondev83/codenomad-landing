@@ -1,0 +1,36 @@
+# CodeNomad — Yoonsuk Chang (장윤석)
+
+> CodeNomad is a one-person Salesforce consultancy based in South Korea, founded and run by Yoonsuk Chang, a Salesforce developer and architect. Bilingual (English / Korean). Focus areas: Salesforce solution architecture, system integration (SAP/ERP, financial institutions, dealer systems), and code/data migration.
+
+## Profile
+- Name: Yoonsuk Chang (장윤석)
+- Role: Founder & Salesforce Specialist, CodeNomad (sole proprietorship, South Korea)
+- Current: Salesforce Developer, South Korea Hub (Founding Engineer) at ProCrewz, a Chicago-based staffing tech startup (Mar 2026 – present)
+- Previous: Lead Salesforce Developer & Part Leader at i2MAX (Feb 2022 – Mar 2026) — led a team of 7 engineers delivering Salesforce DMS solutions for Hyundai and Kia across Southeast Asia
+- Languages: English, Korean
+- Open to: Salesforce consulting, integration and migration projects, contract or full-time engagements
+
+## Salesforce certifications
+- Platform Integration Architect
+- Platform Developer I
+- Platform Developer II
+- Certified Administrator
+- Advanced Administrator
+- Certified JavaScript Developer
+- AI Associate
+- AI Specialist
+
+## Selected projects
+- Huvitz (Jun 2025 – Mar 2026), Technical Project Lead: end-to-end delivery for a domestic enterprise client — solution architecture, sprint planning, UAT, go-live, on-site workshops. Sales Cloud, Service Cloud, SAP interface, migration.
+- SOLUM (Dec 2024 – Jun 2025), Salesforce Dev Team Leader: full sales-cycle customization (lead → opportunity → quote → contract → PO → delivery) across multiple subsidiaries in one org; Experience Cloud partner portal.
+- KIOTI USA (Oct 2024 – Dec 2024), Interface Developer: secure TLS/SSL interfaces with Huntington Distribution Finance, Wells Fargo, and DLL for automated financing workflows.
+- Customer Portal — I2GDMS (May 2024 – Nov 2024), Project Leader: booking system and support hub with LWC, Einstein Bot, Salesforce CMS; 25% reduction in inbound support calls after launch.
+- Kia Sales Thailand DMS (Jul 2023 – Feb 2024), Lead Developer: led 7 developers; 60+ online sales interfaces and 15 ERP integrations; LWC + FullCalendar dealer scheduling; QR walk-in page with an 80% lift in lead capture.
+- Kia Sales Thailand DMS — Support (Feb 2024 – Apr 2024): 25–30 tickets/week at an 80% resolution rate.
+- Hyundai Motors DMS (Sep 2022 – Jun 2023), Interface Developer: 62 interfaces across Thailand, Philippines, and Indonesia connecting Salesforce CRM to dealer and ERP systems.
+
+## Contact
+- Website: https://yoondev.com/
+- Email: yoondev83@gmail.com
+- LinkedIn: https://www.linkedin.com/in/yoonsukchang/
+- Blog: https://loitering.tistory.com/
