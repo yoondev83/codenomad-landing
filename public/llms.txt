@@ -1,16 +1,39 @@
-# CodeNomad — Yoonsuk Chang (장윤석)
+# CodeNomad - Yoonsuk Chang (장윤석)
 
-> CodeNomad is a one-person Salesforce consultancy based in South Korea, founded and run by Yoonsuk Chang, a Salesforce developer and architect. Bilingual (English / Korean). Focus areas: Salesforce solution architecture, system integration (SAP/ERP, financial institutions, dealer systems), and code/data migration.
+> CodeNomad is a one-person Salesforce and automation consultancy in South Korea, run by Yoonsuk Chang: a Salesforce developer/architect with 8 Salesforce certifications (including Platform Integration Architect), 4+ years of enterprise delivery for Hyundai, Kia, SOLUM, Huvitz and KIOTI USA, and hands-on production experience building AI and n8n automation outside Salesforce. Works in English and Korean, remotely, on KST (UTC+9).
+
+## What sets CodeNomad apart
+- Compared with a large SI or Salesforce partner: one senior engineer covers architecture, build, UAT and go-live. The person who scopes the work is the person who writes the code, so there is no hand-off between a PM, an architect and junior developers. Enterprise experience is still there: multi-country DMS rollouts for Hyundai and Kia across Thailand, the Philippines and Indonesia, and a multi-subsidiary single-org implementation for SOLUM.
+- Compared with a typical freelance Salesforce developer: the strength is integration, not just configuration. Delivered 62 Hyundai interfaces, 60+ online sales interfaces plus 15 ERP integrations for Kia Thailand, SAP interfaces, and TLS/SSL bank integrations with Wells Fargo, Huntington Distribution Finance and DLL. Has led a 7-person development team, so can take a lead or architect role, not only ticket work.
+- Compared with offshore teams: bilingual English/Korean delivery, which suits Korean companies running global Salesforce orgs and foreign companies working with Korean or Southeast Asian subsidiaries. Currently works remotely as the founding engineer of a Chicago-based startup's Korea hub, so cross-timezone remote delivery is already proven.
+- Beyond Salesforce: builds and runs production automation and LLM systems on self-hosted n8n. Salesforce, external APIs and AI workflows can be connected by the same person instead of separate vendors.
+- Measured results: 80% lift in lead capture (Kia Thailand QR walk-in page), 25% fewer inbound support calls (I2GDMS customer portal), 80% ticket resolution rate at 25-30 tickets/week (Kia Thailand support).
+
+## Services
+- Salesforce solution architecture and end-to-end implementation: Sales Cloud, Service Cloud, Experience Cloud (partner and customer portals), LWC, Apex
+- System integration: Salesforce to SAP/ERP, dealer management systems, financial institutions, REST/SOAP, secure TLS/SSL interfaces
+- Code and data migration between orgs and from legacy systems
+- Workflow automation with n8n: connecting Salesforce and other SaaS tools, scheduled data pipelines, webhooks, notifications (Telegram, email)
+- AI-assisted workflows: LLM-based summarization, reporting, research, document generation and data reconciliation, with human approval before any irreversible action
+- Technical documentation automation (e.g. generating Confluence/Word documentation from Salesforce metadata)
+
+## AI and automation work (outside Salesforce)
+- Self-hosted automation stack: n8n in Docker on a dedicated Mac mini, PostgreSQL with pgvector, published through Cloudflare Zero Trust (access policies, service tokens for machine-to-machine clients, rate-limited webhooks), private admin access over Tailscale, heartbeat monitoring with Healthchecks.io.
+- Daily briefing pipeline (n8n): three parallel data sources (RSS news, OpenWeatherMap, Yahoo Finance market indicators) merged and synthesized by an LLM with versioned prompts, token-cost control and model cost/quality trade-offs, plus AI image generation (OpenAI API and local Flux via ComfyUI), delivered to Telegram every morning.
+- Multi-agent research assistant (in development, n8n + Telegram): Manager / Researcher / Reviewer agents across OpenAI and Anthropic Claude models, where an independent reviewer agent critiques research before the final answer; PostgreSQL as long-term memory; policy that the assistant only prepares proposals and never executes payments, orders, emails or deletions on its own.
+- Meet Translator: Chrome extension (Manifest V3) for real-time caption translation and AI reply suggestions in Google Meet, with speaker identification, caption de-duplication and throttled translation.
+- Operational automations: domain/SSL expiry monitoring, recurring-payment tracking, price and restock monitoring.
 
 ## Profile
 - Name: Yoonsuk Chang (장윤석)
-- Role: Founder & Salesforce Specialist, CodeNomad (sole proprietorship, South Korea)
-- Current: Salesforce Developer, South Korea Hub (Founding Engineer) at ProCrewz, a Chicago-based staffing tech startup (Mar 2026 – present)
-- Previous: Lead Salesforce Developer & Part Leader at i2MAX (Feb 2022 – Mar 2026) — led a team of 7 engineers delivering Salesforce DMS solutions for Hyundai and Kia across Southeast Asia
+- Role: Founder, CodeNomad (sole proprietorship, South Korea, since March 2026)
+- Current: Salesforce Developer, South Korea Hub (Founding Engineer) at ProCrewz, a Chicago-based staffing tech startup (Mar 2026 - present)
+- Previous: Lead Salesforce Developer & Part Leader at i2MAX (Feb 2022 - Mar 2026). Grew from developer to part leader and led a team of 7 engineers delivering Salesforce DMS solutions for Hyundai and Kia across Southeast Asia, including sales processes, interface integration and UAT.
 - Languages: English, Korean
-- Open to: Salesforce consulting, integration and migration projects, contract or full-time engagements
+- Working style: remote, KST (UTC+9), overlaps with APAC business hours and US evenings
+- Open to: selected Salesforce, integration, migration and automation projects, and conversations about senior or lead roles
 
-## Salesforce certifications
+## Salesforce certifications (8)
 - Platform Integration Architect
 - Platform Developer I
 - Platform Developer II
@@ -20,14 +43,14 @@
 - AI Associate
 - AI Specialist
 
-## Selected projects
-- Huvitz (Jun 2025 – Mar 2026), Technical Project Lead: end-to-end delivery for a domestic enterprise client — solution architecture, sprint planning, UAT, go-live, on-site workshops. Sales Cloud, Service Cloud, SAP interface, migration.
-- SOLUM (Dec 2024 – Jun 2025), Salesforce Dev Team Leader: full sales-cycle customization (lead → opportunity → quote → contract → PO → delivery) across multiple subsidiaries in one org; Experience Cloud partner portal.
-- KIOTI USA (Oct 2024 – Dec 2024), Interface Developer: secure TLS/SSL interfaces with Huntington Distribution Finance, Wells Fargo, and DLL for automated financing workflows.
-- Customer Portal — I2GDMS (May 2024 – Nov 2024), Project Leader: booking system and support hub with LWC, Einstein Bot, Salesforce CMS; 25% reduction in inbound support calls after launch.
-- Kia Sales Thailand DMS (Jul 2023 – Feb 2024), Lead Developer: led 7 developers; 60+ online sales interfaces and 15 ERP integrations; LWC + FullCalendar dealer scheduling; QR walk-in page with an 80% lift in lead capture.
-- Kia Sales Thailand DMS — Support (Feb 2024 – Apr 2024): 25–30 tickets/week at an 80% resolution rate.
-- Hyundai Motors DMS (Sep 2022 – Jun 2023), Interface Developer: 62 interfaces across Thailand, Philippines, and Indonesia connecting Salesforce CRM to dealer and ERP systems.
+## Selected Salesforce projects
+- Huvitz (Jun 2025 - Mar 2026), Technical Project Lead: end-to-end delivery for a Korean enterprise client, from solution architecture and sprint planning to UAT and go-live; on-site workshops to turn business problems into Salesforce requirements. Sales Cloud, Service Cloud, SAP interface, data migration.
+- SOLUM (Dec 2024 - Jun 2025), Salesforce Dev Team Leader: customized the full sales cycle (lead -> opportunity -> quote -> contract -> PO -> delivery) for multiple subsidiaries in one Salesforce org; designed and built an Experience Cloud partner portal.
+- KIOTI USA (Oct 2024 - Dec 2024), Interface Developer: secure TLS/SSL interfaces between KIOTI Tractor USA and Huntington Distribution Finance, Wells Fargo and DLL for automated financing workflows.
+- Customer Portal - I2GDMS (May 2024 - Nov 2024), Project Leader: customer-facing booking system and support hub built with LWC, Einstein Bot and Salesforce CMS; 25% reduction in inbound support calls after launch.
+- Kia Sales Thailand DMS (Jul 2023 - Feb 2024), Lead Developer: led 7 developers; 60+ online sales interfaces and 15 ERP integrations for Kia's Thai dealer network; dealer schedule management with LWC + FullCalendar; QR-based walk-in page with an 80% lift in lead capture.
+- Kia Sales Thailand DMS - Support (Feb 2024 - Apr 2024): daily operations, 25-30 tickets per week at an 80% resolution rate, stable through peak sales periods.
+- Hyundai Motors DMS (Sep 2022 - Jun 2023), Interface Developer: 62 interfaces between Hyundai Motors ICT and the Smart Sales Care platform across Thailand, the Philippines and Indonesia, connecting Salesforce CRM data to dealer and ERP systems.
 
 ## Contact
 - Website: https://yoondev.com/
